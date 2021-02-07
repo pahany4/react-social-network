@@ -1,0 +1,16 @@
+.createPost {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.createPost img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.createPost textarea {
+    flex-grow: 1;
+}

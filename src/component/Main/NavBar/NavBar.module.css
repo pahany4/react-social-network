@@ -1,0 +1,17 @@
+.nav {
+    margin-bottom: 25px;
+    border-bottom: 2px solid #cdcdcd;
+}
+.list {
+    padding: 0;
+    
+}
+@media (min-width:768px) {
+    .nav {
+        border-bottom: none;
+        border-right: 2px solid #cdcdcd;
+        grid-column: 1;
+        margin-right: 50px;
+    }
+}
+

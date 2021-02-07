@@ -1,0 +1,76 @@
+.userItem {
+    margin-bottom: 40px;
+}
+
+.user {
+    margin-bottom: 20px;
+}
+
+.avaWrap {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.userPhoto {
+    width: 100%;
+}
+
+.userInfo {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.fullName,
+.location {
+    font-weight: bold;
+}
+
+.status {
+    font-style: italic;
+}
+
+
+@media (min-width:768px) {
+    .userItem {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+
+    .user {
+        grid-column: 1;
+        margin-bottom: 0;
+    }
+
+    .userInfo {
+        grid-column: 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 15px 20px;
+    }
+
+    .userInfo p {
+        margin: 0;
+    }
+
+    .fullName {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .status {
+        grid-column: 1;
+        grid-row: 2;
+        align-self: end;
+    }
+
+    .location {
+        grid-column: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        text-align: right;
+        align-self: start;
+    }
+}

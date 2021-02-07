@@ -1,0 +1,12 @@
+.main {
+    flex: 1 0 auto;
+    padding: 0 30px;
+}
+
+@media (min-width:768px) {
+    .main {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        padding: 0 80px;
+    }
+}

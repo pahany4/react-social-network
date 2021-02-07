@@ -1,0 +1,25 @@
+.dialogItemLink {
+    display: flex;
+    text-decoration: none;
+    color: rgb(35, 35, 35);
+    align-items: center;
+}
+.activ {
+    color: royalblue;
+}
+
+.dialogItemLink+.dialogItemLink {
+    margin-top: 20px;
+}
+
+.dialogItemLink img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 36px;
+    margin: 0;
+}
